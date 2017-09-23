@@ -96,6 +96,9 @@
 							<?php the_content() ?>
 						</p>
 
+						<?php the_tags( 'Tagged with: ', ' • ', '<br />' ); ?>
+
+
                     </article>
 
 
