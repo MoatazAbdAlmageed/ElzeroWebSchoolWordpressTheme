@@ -122,7 +122,16 @@ for ( $feature = 0; $feature <= count( $features_lit ); $feature ++ ) {
 
 
 
+/*excerpt_more*/
 function wpdocs_excerpt_more(  ) {
 	return '<a href="'.get_the_permalink().'" class="btn btn-blog pull-right marginBottom10 read-more-link"> Read More...</a>';
 }
 add_filter( 'excerpt_more', 'wpdocs_excerpt_more' );
+
+
+/*excerpt_length*/
+
+function wpdocs_excerpt_length(  ) {
+	return 4;
+}
+//add_filter( 'excerpt_length', 'wpdocs_excerpt_length');

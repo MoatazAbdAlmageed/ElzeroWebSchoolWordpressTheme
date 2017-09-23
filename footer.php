@@ -16,6 +16,10 @@
     </div><!--/.nav-collapse -->
 
 
+    <a href="#top" id="smoothup" title="Back to top"><i class="fa fa-arrow-up" aria-hidden="true"></i>
+    </a>
+
+
 </footer><!-- .site-footer -->
 <?php wp_footer(); ?>
 </div> <!-- /container -->

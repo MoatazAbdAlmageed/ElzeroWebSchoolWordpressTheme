@@ -105,3 +105,29 @@ body {
 #main-wrapper {
     margin-bottom: 8em !important;
 }
+
+
+
+
+#smoothup {
+    height: 40px;
+    width: 40px;
+    position:fixed;
+    bottom:50px;
+    right:100px;
+    /*text-indent:-9999px;*/
+    display:none;
+    /*background: url("http://www.example.com/wp-content/uploads/2013/07/top_icon.png");*/
+    background: #00BCD4;
+    -webkit-transition-duration: 0.4s;
+    -moz-transition-duration: 0.4s; transition-duration: 0.4s;
+    border-radius: 50%;
+}
+#smoothup  .fa {
+    margin-top: 1em;
+}
+#smoothup:hover {
+    -webkit-transform: rotate(360deg);
+
+ckground-color: #555; /* Add a dark-grey background on hover */
+}
