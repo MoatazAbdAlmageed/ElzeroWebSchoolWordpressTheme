@@ -110,8 +110,12 @@
         </div>
 
             <div class="posts-navigation">
-                <div class="next-posts"><?php next_posts_link(); ?></div>
-                <div class="prev-posts"><?php previous_posts_link(); ?></div>
+                <div class="prev-posts"><?php previous_posts_link('<i class="fa fa-chevron-left" aria-hidden="true"></i>
+ Prev'); ?></div>
+
+                <div class="next-posts"><?php next_posts_link('<i class="fa fa-chevron-right" aria-hidden="true"></i>
+ Next'); ?></div>
+
             </div>
 
 	    <?php endif; ?>
