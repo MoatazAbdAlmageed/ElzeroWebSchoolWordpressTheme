@@ -23,8 +23,15 @@ body {
 
 
 .post{
+
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    -moz-box-shadow: 3px 3px 5px 6px #ccc;
+
+    background: #fff;
+    padding: 12px;
+
     /*border-bottom: 1px dotted #8c8b8b;*/
-    padding-bottom: 3em;
+    margin-bottom: 3em;
 }
 .post:last-of-type {
     border-bottom: 0px ;
@@ -245,4 +252,10 @@ a.navbar-brand {
 }
 a.navbar-brand:hover {
     color: #fff;
+}
+
+
+body {
+
+    background: #e8e8e8;
 }
