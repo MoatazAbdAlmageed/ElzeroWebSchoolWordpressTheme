@@ -179,3 +179,9 @@ body {
     background-color: #1d1f22 !important;
 background-image: none !important;
 }
+
+
+.commentlist li  {
+    list-style: none;
+    margin-bottom: 25px
+}

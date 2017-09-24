@@ -47,12 +47,6 @@
 		</div>
 	</nav>
 
-	<!-- Main jumbotron for a primary marketing message or call to action -->
-	<div class="jumbotron">
-		<h1><?php echo bloginfo( 'name' ); ?> <i class="fa fa-pencil" aria-hidden="true"></i></h1>
-		<p><?php echo bloginfo( 'description' ); ?></p>
-	</div>
-
 
 	<div class="row">
 
@@ -100,11 +94,25 @@
 
 
                     </article>
+<h1>Comments</h1>
+                    <div class="commentlist">
+						<?php
+						//Gather comments for a specific page/post
+						$comments = get_comments(array(
+							'post_id' => XXX,
+							'status' => 'approve' //Change this to the type of comments to be displayed
+						));
+
+						//Display the list of comments
+						wp_list_comments(array(
+							'per_page' => 10, //Allow comment pagination
+							'reverse_top_level' => false //Show the oldest comments at the top of the list
+						), $comments);
+						?>
+                    </div>
 
 
-
-
-				</div>
+                </div>
 			</div>
 		<?php endwhile; ?>
 
