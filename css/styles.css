@@ -133,7 +133,10 @@ body {
     -webkit-transform: rotate(360deg);
     background: #1c1e22;
 }
-
+.posts-navigation{
+    margin: auto;
+width: 400px;
+}
 
 .posts-navigation a{
     background: #00BCD4;
