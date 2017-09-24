@@ -94,9 +94,13 @@
 
 
                     </article>
-<h1>Comments</h1>
+
                     <div class="commentlist">
 						<?php
+                        if (have_comments()){
+                            ?>
+                            <h1>Comments</h1>
+	                    <?php
 						//Gather comments for a specific page/post
 						$comments = get_comments(array(
 							'post_id' => XXX,
@@ -108,6 +112,7 @@
 							'per_page' => 10, //Allow comment pagination
 							'reverse_top_level' => false //Show the oldest comments at the top of the list
 						), $comments);
+                        }
 						?>
                     </div>
 

@@ -45,7 +45,7 @@ body {
 }
 
 .post{
-    border-bottom: 5px dotted #21c1ab;
+    /*border-bottom: 1px dotted #8c8b8b;*/
     padding-bottom: 3em;
 }
 .post:last-of-type {
@@ -77,13 +77,13 @@ body {
 
     color: #eeeeee;
 
-    /*background: #21c1ab;*/
+    /*background: #008cba;*/
     margin: 5px;
 
 }
 .post .read-more-link:hover{
 
-    color: #21c1ab;
+    color: #008cba;
 }
 .post a:hover {
     color: #009688;
@@ -120,7 +120,7 @@ body {
     display:none;
     /*background: url("http://www.example.com/wp-content/uploads/2013/07/top_icon.png");*/
 
-    background: #00BCD4;
+    background: #009688;
 
     -webkit-transition-duration: 0.4s;
     -moz-transition-duration: 0.4s; transition-duration: 0.4s;
@@ -141,7 +141,7 @@ body {
 }
 
 .posts-navigation a,.posts-navigation span{
-    background: #00BCD4;
+    background: #009688;
     float: left;
     margin: 10px;
     padding: 10px;
@@ -162,7 +162,7 @@ body {
     -moz-transition-duration: 0.4s; transition-duration: 0.4s;
 }
 .jumbotron h1 {
-    color:  #00BCD4;;
+    color:  #008cba;;
 }
 
 
