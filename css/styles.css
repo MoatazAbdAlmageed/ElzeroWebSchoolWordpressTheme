@@ -134,8 +134,10 @@ body {
     background: #1c1e22;
 }
 .posts-navigation{
-    margin: auto;
-width: 400px;
+    margin: 0 auto;
+    width: 200px;
+    display: block;
+    clear: both;
 }
 
 .posts-navigation a,.posts-navigation span{

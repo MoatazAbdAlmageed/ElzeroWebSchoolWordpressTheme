@@ -56,7 +56,7 @@
 
 
     <div class="row" id="main-wrapper">
-        <div class="col-lg-12 col-md-6">
+        <div class="col-sm-12 ">
 
 			<?php if ( have_posts() ) :
 			while ( have_posts() ) : the_post(); ?>
