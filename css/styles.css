@@ -150,6 +150,8 @@ width: 400px;
 .posts-navigation span{
     background: #1c1e22;
     color: #4c4c4d;
+    cursor: not-allowed ;
+    opacity: .8;
 }
 .posts-navigation a:hover{
     background: #1c1e22;
