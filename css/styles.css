@@ -110,14 +110,20 @@ body {
 #smoothup:hover {
     /*-webkit-transform: rotate(360deg);*/
     background: #1c1e22;
+
 }
 
 
 #smoothup .fa {
     margin-top: 1em;
-    color: #eeeeee !important;
-    display: block  !important;
+    color: #222 ;
+    display: block  ;
     text-align: center;
+}
+
+#smoothup .fa:hover {
+
+    color:#FBCF1F;
 }
 
 .posts-navigation{
