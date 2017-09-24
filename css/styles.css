@@ -1,3 +1,4 @@
+
 body {
     padding-top: 70px;
     padding-bottom: 30px;
@@ -119,7 +120,8 @@ body {
     display:none;
     /*background: url("http://www.example.com/wp-content/uploads/2013/07/top_icon.png");*/
 
-    background: #1c1e22;
+    background: #00BCD4;
+
     -webkit-transition-duration: 0.4s;
     -moz-transition-duration: 0.4s; transition-duration: 0.4s;
     border-radius: 50%;
@@ -129,6 +131,25 @@ body {
 }
 #smoothup:hover {
     -webkit-transform: rotate(360deg);
+    background: #1c1e22;
+}
 
+
+.posts-navigation a{
     background: #00BCD4;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    color: #222427;
+    text-decoration: none !important;
+}
+
+.posts-navigation a:hover{
+    background: #1c1e22;
+    color:  #fff;
+    -webkit-transition-duration: 0.4s;
+    -moz-transition-duration: 0.4s; transition-duration: 0.4s;
+}
+.jumbotron h1 {
+    color:  #00BCD4;;
 }
