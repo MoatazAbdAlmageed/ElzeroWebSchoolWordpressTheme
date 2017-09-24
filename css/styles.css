@@ -61,10 +61,10 @@ body {
 }
 .post .read-more-link:hover{
 
-    color: #008cba;
+    color:#FBCF1F;
 }
 .post a:hover {
-    color: #009688;
+    color: #FBCF1F;
 }
 
 
@@ -98,7 +98,7 @@ body {
     display:none;
     /*background: url("http://www.example.com/wp-content/uploads/2013/07/top_icon.png");*/
 
-    background: #009688;
+    background: #FBCF1F;
 
     -webkit-transition-duration: 0.4s;
     -moz-transition-duration: 0.4s; transition-duration: 0.4s;
@@ -128,7 +128,7 @@ body {
 }
 
 .posts-navigation a,.posts-navigation span{
-    background: #009688;
+    background: #FBCF1F;
     float: left;
     margin: 10px;
     padding: 10px;
@@ -149,7 +149,7 @@ body {
     -moz-transition-duration: 0.4s; transition-duration: 0.4s;
 }
 .jumbotron h1 {
-    color:  #008cba;;
+    color:  #222;;
 }
 
 
@@ -197,7 +197,7 @@ body {
 
 
 .navbar {
-   background: #009688;
+   background: #FBCF1F;
 
 }
 .navbar a {
@@ -205,15 +205,32 @@ body {
 }
 
 .navbar-nav .active {
-    background: #ffffff;
+    background: #222222;
 }
 
 .navbar-nav .active a{
-    color: #000;: red
+    color: #fff;
+}
+
+
+.navbar-nav a:hover {
+    color: #222222;
 }
 
 .nav>li>a:hover, .nav>li>a:focus {
+    /*text-decoration: none;*/
+    /*background: #dff0d8;*/
+    /*color: #000;*/
+}
+
+a {
+
+    color: #272727;
+
+}
+
+
+a:hover, a:focus {
+    color: #FBCF1F;
     text-decoration: none;
-    background: #dff0d8;
-    color: #000;
 }

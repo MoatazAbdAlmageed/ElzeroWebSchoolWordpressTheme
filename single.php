@@ -21,10 +21,10 @@
 
 
 	<div class="row">
-
+        <div class="col-md-9">
 
 		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-			<div class="col-lg-12 col-md-6">
+
 
 
 				<div class="post">
@@ -89,9 +89,11 @@
                     </div>
 
 
-                </div>
+
 			</div>
 		<?php endwhile; ?>
+
+
 
 <div class="clearfix"></div>
 			<div class="navigation ">
@@ -100,7 +102,13 @@
 			</div>
 
 		<?php endif; ?>
+        </div>
 
+
+       <div class="col-md-3 ">
+
+	       <?php get_sidebar() ?>
+       </div>
 	</div>
 
 
