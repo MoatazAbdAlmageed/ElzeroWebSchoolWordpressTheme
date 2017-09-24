@@ -2,6 +2,8 @@
 body {
     padding-top: 70px;
     padding-bottom: 30px;
+    /*background: url("http://www.newsmartwave.net/wordpress/porto/resume/wp-content/uploads/sites/49/2017/02/about-me-bg-1.jpg");*/
+    background: #eeeeee
 }
 
 .theme-dropdown .dropdown-menu {
@@ -58,7 +60,7 @@ body {
 
 }
 .post .read-more-link{
-    color: #222222;
+    color: #201f1c;
     /* background: #008cba; */
     margin: 5px;
     background: #fbcf20;
@@ -67,13 +69,13 @@ body {
 
 }
 .post .read-more-link:hover{
-    background: #222;
+    background: #201f1c;
     color:#fbcf20;
     -webkit-transition-duration: 0.4s;
     -moz-transition-duration: 0.4s; transition-duration: 0.4s;
 }
 .post a:hover {
-    color: #FBCF1F;
+    color: #fcd83f;
 }
 
 
@@ -107,7 +109,7 @@ body {
     display:none;
     /*background: url("http://www.example.com/wp-content/uploads/2013/07/top_icon.png");*/
 
-    background: #FBCF1F;
+    background: #fcd83f;
 
     -webkit-transition-duration: 0.4s;
     -moz-transition-duration: 0.4s; transition-duration: 0.4s;
@@ -125,14 +127,14 @@ body {
 
 #smoothup .fa {
     margin-top: 1em;
-    color: #222 ;
+    color: #201f1c ;
     display: block  ;
     text-align: center;
 }
 
 #smoothup .fa:hover {
 
-    color:#FBCF1F;
+    color:#fcd83f;
 }
 
 .posts-navigation{
@@ -143,11 +145,11 @@ body {
 }
 
 .posts-navigation a,.posts-navigation span{
-    background: #FBCF1F;
+    background: #fcd83f;
     float: left;
     margin: 10px;
     padding: 10px;
-    color: #222427;
+    color: #201f1c427;
     text-decoration: none !important;
 }
 
@@ -164,7 +166,7 @@ body {
     -moz-transition-duration: 0.4s; transition-duration: 0.4s;
 }
 .jumbotron h1 {
-    color:  #222;;
+    color:  #201f1c;;
 }
 
 
@@ -212,7 +214,7 @@ body {
 
 
 .navbar {
-   background: #FBCF1F;
+   background: #fcd83f;
 
 }
 .navbar a {
@@ -220,7 +222,7 @@ body {
 }
 
 .navbar-nav .active {
-    background: #222222;
+    background: #201f1c;
 }
 
 .navbar-nav .active a{
@@ -229,7 +231,7 @@ body {
 
 
 .navbar-nav a:hover {
-    color: #222222;
+    color: #201f1c;
 }
 
 .nav>li>a:hover, .nav>li>a:focus {
@@ -246,21 +248,18 @@ a {
 
 
 a:hover, a:focus {
-    color: #FBCF1F;
+    color: #fcd83f;
     text-decoration: none;
 }
 a.navbar-brand {
-    color: #222;
+    color: #201f1c;
 }
 a.navbar-brand:hover {
     color: #fff;
 }
 
 
-body {
 
-    background: #e8e8e8;
-}
 
 .single-post .post{
     min-height: 29em;
