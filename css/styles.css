@@ -29,10 +29,11 @@ body {
     -webkit-box-shadow: 3px 3px 5px 6px #ccc;
     -moz-box-shadow: 3px 3px 5px 6px #ccc;
     background: #fff;
-    padding: 12px;
+
     /* border-bottom: 1px dotted #8c8b8b; */
     padding-bottom: 3em;
     margin-bottom: 2em;
+    padding: 3em;
 }
 .post:last-of-type {
     border-bottom: 0px ;
@@ -145,11 +146,12 @@ body {
 }
 
 .posts-navigation a,.posts-navigation span{
+    padding: 6em;
     background: #fcd83f;
     float: left;
     margin: 10px;
     padding: 10px;
-    color: #201f1c427;
+    color: #201f1c;
     text-decoration: none !important;
 }
 
