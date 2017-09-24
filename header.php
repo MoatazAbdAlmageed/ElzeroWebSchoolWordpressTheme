@@ -26,3 +26,33 @@
 <body <?php body_class(); ?>  >
 <div class="container">
 
+    <nav class="navbar  navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                        aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="<?php echo bloginfo( 'url' ); ?>"><?php echo bloginfo( 'name' ); ?></a>
+            </div>
+
+
+            <div id="navbar" class="navbar-collapse collapse">
+				<?php wp_nav_menu(
+					[
+						'theme_location' => 'main-menu',
+//						'depth' => 1,
+						'container'      => 'false',
+						'menu_class'     => 'nav navbar-nav navbar-right',
+						'walker'         => new WP_Bootstrap_Navwalker()
+
+					]
+				); ?>
+            </div><!--/.nav-collapse -->
+        </div>
+    </nav>
+
+

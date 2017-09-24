@@ -1,7 +1,4 @@
 <footer id="colophon" class="site-footer" role="contentinfo">
-    <div class="site-info">
-        <a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentyfifteen' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'twentyfifteen' ), 'WordPress' ); ?></a>
-    </div><!-- .site-info -->
 
 
     <div id="navbar" class="navbar-collapse collapse">
@@ -14,6 +11,11 @@
 			]
 		); ?>
     </div><!--/.nav-collapse -->
+
+
+    <div class="site-info">
+        <a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentyfifteen' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'twentyfifteen' ), 'WordPress' ); ?></a>
+    </div><!-- .site-info -->
 
 
     <a href="#top" id="smoothup" title="Back to top"><i class="fa fa-arrow-up" aria-hidden="true"></i>
