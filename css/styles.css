@@ -172,3 +172,8 @@ width: 400px;
 
     background: #1c1e22;
 }
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    background-color: #1d1f22 !important;
+background-image: none !important;
+}
