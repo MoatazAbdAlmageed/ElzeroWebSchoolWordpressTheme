@@ -138,7 +138,7 @@ body {
 width: 400px;
 }
 
-.posts-navigation a{
+.posts-navigation a,.posts-navigation span{
     background: #00BCD4;
     float: left;
     margin: 10px;
@@ -147,6 +147,10 @@ width: 400px;
     text-decoration: none !important;
 }
 
+.posts-navigation span{
+    background: #1c1e22;
+    color: #4c4c4d;
+}
 .posts-navigation a:hover{
     background: #1c1e22;
     color:  #fff;
