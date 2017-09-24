@@ -28,7 +28,7 @@
 			while ( have_posts() ) : the_post(); ?>
 
                 <div class="post">
-                    <h1><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h1>
+                    <h1 class="title"><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h1>
 
                     <p>
                         <i class="fa fa-list" aria-hidden="true"></i>
@@ -63,7 +63,7 @@
                     </p>
 					<?php if ( has_post_thumbnail() ) : ?>
                         <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
-							<?php the_post_thumbnail( null, [
+							<?php the_post_thumbnail( 'medium', [
 								'class' => 'img-responsive img-thumbnail',
 								'alt'   => get_the_title()
 							] ); ?>

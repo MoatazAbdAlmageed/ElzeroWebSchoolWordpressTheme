@@ -2,6 +2,13 @@
 
 jQuery(document).ready(function($){
 
+
+    jQuery('#smoothup').hover(function (){
+
+        jQuery('#smoothup .fa').css('color','#FBCF1F');
+    },function () {
+        jQuery('#smoothup .fa').css('color','#222');
+    })
     jQuery('img').addClass('img-responsive');
 
 

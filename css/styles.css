@@ -26,12 +26,11 @@ body {
 
     -webkit-box-shadow: 3px 3px 5px 6px #ccc;
     -moz-box-shadow: 3px 3px 5px 6px #ccc;
-
     background: #fff;
     padding: 12px;
-
-    /*border-bottom: 1px dotted #8c8b8b;*/
-    margin-bottom: 3em;
+    /* border-bottom: 1px dotted #8c8b8b; */
+    padding-bottom: 3em;
+    margin-bottom: 2em;
 }
 .post:last-of-type {
     border-bottom: 0px ;
@@ -55,20 +54,23 @@ body {
     text-decoration:  none;
 
     /*color: #2b2b2b;*/
-    font-style: italic;
+    /*font-style: italic;*/
 
 }
 .post .read-more-link{
-
-    color: #eeeeee;
-
-    /*background: #008cba;*/
+    color: #222222;
+    /* background: #008cba; */
     margin: 5px;
+    background: #fbcf20;
+    /*background: #008cba;*/
+    /*margin: 5px;*/
 
 }
 .post .read-more-link:hover{
-
-    color:#FBCF1F;
+    background: #222;
+    color:#fbcf20;
+    -webkit-transition-duration: 0.4s;
+    -moz-transition-duration: 0.4s; transition-duration: 0.4s;
 }
 .post a:hover {
     color: #FBCF1F;
@@ -259,3 +261,22 @@ body {
 
     background: #e8e8e8;
 }
+
+.single-post .post{
+    min-height: 29em;
+}
+
+.single-post  .wp-post-image {
+    margin: auto;
+    /*float: left;*/
+    /*width: 300px;*/
+    /*padding: 29px;*/
+    /*margin: 10px;*/
+    margin-bottom: 1em;
+}
+
+.single-post .title {
+    text-align: center;
+}
+
+

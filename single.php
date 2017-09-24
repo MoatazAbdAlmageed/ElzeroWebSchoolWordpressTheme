@@ -28,18 +28,23 @@
 
 
 				<div class="post">
-					<h1><?php the_title(); ?></h1>
+					<h1 class="title"><?php the_title(); ?></h1>
 
-					<p>
-               <i class="fa fa-list" aria-hidden="true"></i>
-                      <?php the_category(', '); ?>
-						| <i class="icon-user"></i> <i class="fa fa-user" aria-hidden="true"></i> <?php the_author_posts_link() ?>
-						| <i class="icon-calendar"></i> <i class="fa fa-calendar" aria-hidden="true"></i>
+					<?php if ( has_post_thumbnail() ) : ?>
+						<?php the_post_thumbnail('medium_large'); ?>
+					<?php endif; ?>
+
+
+                    <p>
+                        <i class="fa fa-list" aria-hidden="true"></i>
+						<?php the_category(', '); ?>
+                        | <i class="icon-user"></i> <i class="fa fa-user" aria-hidden="true"></i> <?php the_author_posts_link() ?>
+                        | <i class="icon-calendar"></i> <i class="fa fa-calendar" aria-hidden="true"></i>
 
 						<?php the_date('F j, Y'); ?> at <i class="fa fa-clock-o" aria-hidden="true"></i> <?php the_time('g:i a'); ?>
 
-						| <i class="icon-comment"></i> <i class="fa fa-comment" aria-hidden="true"></i>
-<!--						<a href="--><?php //comment_link() ?><!--">  --><?php //comments_number() ?><!--</a>-->
+                        | <i class="icon-comment"></i> <i class="fa fa-comment" aria-hidden="true"></i>
+                        <!--						<a href="--><?php //comment_link() ?><!--">  --><?php //comments_number() ?><!--</a>-->
 						<?php
 						//Load Different CSS classes according to Comment-condition
 
@@ -54,10 +59,9 @@
 						comments_popup_link('No comments yet.','One Comment','% Comments',$css_class,'Comments are off for this post' )
 						?>
 
-					</p>
-					<?php if ( has_post_thumbnail() ) : ?>
-						<?php the_post_thumbnail(); ?>
-					<?php endif; ?>
+                    </p>
+
+
 					<article><p>
 							<?php the_content() ?>
 						</p>
