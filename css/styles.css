@@ -234,3 +234,9 @@ a:hover, a:focus {
     color: #FBCF1F;
     text-decoration: none;
 }
+a.navbar-brand {
+    color: #222;
+}
+a.navbar-brand:hover {
+    color: #fff;
+}
