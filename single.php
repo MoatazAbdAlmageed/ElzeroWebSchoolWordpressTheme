@@ -22,13 +22,13 @@
 
 	<div class="row">
         <div class="col-md-9">
-
+<div class="title-holder">	<h1 class="title"><?php the_title(); ?></h1></div>
 		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 
 
 				<div class="post">
-					<h1 class="title"><?php the_title(); ?></h1>
+
 
 					<?php if ( has_post_thumbnail() ) : ?>
 						<?php the_post_thumbnail('medium_large'); ?>

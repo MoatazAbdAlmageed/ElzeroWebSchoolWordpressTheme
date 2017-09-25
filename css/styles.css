@@ -24,7 +24,7 @@ body {
 
 
 
-.blog .post,.single-post .post  ,.single-post #sidebar{
+.blog .post,.single-post .post,.title-holder   {
 
     -webkit-box-shadow: 3px 3px 5px 6px #ccc;
     -moz-box-shadow: 3px 3px 5px 6px #ccc;
@@ -278,6 +278,13 @@ a.navbar-brand:hover {
 
 .single-post .title {
     text-align: center;
+    font-weight: bolder;
 }
 
 
+
+.title-holder {
+    background: #222;
+    padding: 1em;
+    color: #fcd83f;
+}
