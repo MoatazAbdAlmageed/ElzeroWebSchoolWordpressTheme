@@ -5,15 +5,3 @@
 # Full
 [![N|Solid](https://scontent-cai1-1.xx.fbcdn.net/v/t34.0-12/22052389_1833354473356261_1462902655_n.png?oh=f176a0b521bb18f0d7654cf4e0decdaa&oe=59CAFF7C)](https://goo.gl/B9jhma)
 
-# Blog Page
-[![N|Solid](https://scontent-cai1-1.xx.fbcdn.net/v/t35.0-12/22068899_1832390876785954_202934519_o.png?oh=1c55193c09328a98f39cd26aa4bb59a7&oe=59CA8362)](https://goo.gl/B9jhma)
-
-
-
-# Single Page
-[![N|Solid](https://scontent-cai1-1.xx.fbcdn.net/v/t34.0-12/21979414_1832393383452370_1036116062_n.png?oh=1520717cf086388739b6f256f96e321a&oe=59CAAD74)](https://goo.gl/B9jhma)
-
-
-
-#  prev , Next 
-[![N|Solid](https://scontent-cai1-1.xx.fbcdn.net/v/t35.0-12/22050642_1832399046785137_882059587_o.png?oh=2c3492fa7bc2ce5fc08d29dd92a5ef2f&oe=59CA5529)](https://goo.gl/B9jhma)
