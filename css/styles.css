@@ -185,7 +185,8 @@ body {
 
 .commentlist li  {
     list-style: none;
-    margin-bottom: 25px
+    padding-bottom: 2em;
+    margin-bottom: 2em;
 }
 
 
@@ -287,4 +288,25 @@ a.navbar-brand:hover {
     background: #222;
     padding: 1em;
     color: #fcd83f;
+}
+
+.comment  img {
+    float: left;
+    margin-right: 1em;
+}
+
+.comment  {
+border-bottom:  1px solid #eee;
+}
+
+.comment:last-of-type {
+    border-bottom: 0px ;
+}
+
+.comment-reply-link{
+    /*color: #fcd83f;*/
+    /*background: #222;*/
+    /*width: 3em;*/
+    /*padding: 1em;*/
+    /*display: block;*/
 }

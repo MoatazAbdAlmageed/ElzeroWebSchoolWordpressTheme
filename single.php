@@ -70,10 +70,10 @@
 
 
                     </article>
-
+                    <hr>
                     <div class="commentlist">
 						<?php
-                        if (have_comments()){
+                        if (have_comments())
                             ?>
                             <h1>Comments</h1>
 	                    <?php
@@ -88,7 +88,8 @@
 							'per_page' => 10, //Allow comment pagination
 							'reverse_top_level' => false //Show the oldest comments at the top of the list
 						), $comments);
-                        }
+
+
 						?>
                     </div>
 
