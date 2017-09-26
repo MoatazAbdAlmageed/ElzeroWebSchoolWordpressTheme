@@ -22,10 +22,12 @@
 
 	<div class="row">
         <div class="col-md-9">
-<div class="title-holder">	<h1 class="title"><?php the_title(); ?></h1></div>
+
 		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-
+            <div class="title-holder">	<h1 class="title"><?php the_title(); ?></h1>
+            <span><?php edit_post_link() ?></span>
+            </div>
 
 				<div class="post">
 
@@ -59,6 +61,7 @@
 						comments_popup_link('No comments yet.','One Comment','% Comments',$css_class,'Comments are off for this post' )
 						?>
 
+                        
                     </p>
 
 

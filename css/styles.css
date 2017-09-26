@@ -288,6 +288,7 @@ a.navbar-brand:hover {
     background: #222;
     padding: 1em;
     color: #fcd83f;
+    padding-bottom: 2em;
 }
 
 .comment  img {
@@ -309,4 +310,9 @@ border-bottom:  1px solid #eee;
     /*width: 3em;*/
     /*padding: 1em;*/
     /*display: block;*/
+}
+.post-edit-link{
+    color: #fcd83f;
+    float: right;
+    display: none;
 }

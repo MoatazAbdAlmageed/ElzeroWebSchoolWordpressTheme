@@ -9,6 +9,18 @@ jQuery(document).ready(function($){
     },function () {
         jQuery('#smoothup .fa').css('color','#222');
     })
+
+
+
+    jQuery('.title-holder').hover(function (){
+
+        jQuery('.post-edit-link').show();
+    },function () {
+        jQuery('.post-edit-link').hide();
+    })
+
+
+
     jQuery('img').addClass('img-responsive');
 
 
