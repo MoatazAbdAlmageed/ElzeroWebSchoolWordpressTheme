@@ -89,7 +89,7 @@
 					previous_posts_link( '<i class="fa fa-chevron-left" aria-hidden="true"></i> Prev' );
 
 				} else {
-					echo '<span><i class="fa fa-chevron-left" aria-hidden="true"></i> Prev</span>';
+//					echo '<span><i class="fa fa-chevron-left" aria-hidden="true"></i> Prev</span>';
 				}
 				?></div>
 
@@ -102,7 +102,7 @@
 		            next_posts_link( '<i class="fa fa-chevron-right" aria-hidden="true"></i> Next' );
 
 	            } else {
-		            echo '<span><i class="fa fa-chevron-right" aria-hidden="true"></i> Next</span>';
+//		            echo '<span><i class="fa fa-chevron-right" aria-hidden="true"></i> Next</span>';
 	            }
                 ?>
 

@@ -1,36 +1,43 @@
 
 
 jQuery(document).ready(function($){
+// debugger
+//     // javascript - How do I check if an HTML element is empty using $? - Stack Overflow
+//     if ($('.prev-posts').is(':empty')){
+//
+//         $(this).removeAttr('style');
+//         $(this).removeClass('hover');
+//         $(this).remove();
+//     }
 
+    $('#smoothup').hover(function (){
 
-    jQuery('#smoothup').hover(function (){
-
-        jQuery('#smoothup .fa').css('color','#FBCF1F');
+        $('#smoothup .fa').css('color','#FBCF1F');
     },function () {
-        jQuery('#smoothup .fa').css('color','#222');
+        $('#smoothup .fa').css('color','#222');
     })
 
 
 
-    jQuery('.title-holder').hover(function (){
+    $('.title-holder').hover(function (){
 
-        jQuery('.post-edit-link').show();
+        $('.post-edit-link').show();
     },function () {
-        jQuery('.post-edit-link').hide();
+        $('.post-edit-link').hide();
     })
 
 
-    jQuery('.single .next-post ,.single .prev-post,.prev-posts ,.next-posts ').hover(function (){
+    $('.single .next-post ,.single .prev-post,.prev-posts ,.next-posts ').hover(function (){
 
-        jQuery(this).addClass('hover');
+        $(this).addClass('hover');
     },function () {
-        jQuery(this).removeClass('hover');
+        $(this).removeClass('hover');
     })
 
 
 
 
-    jQuery('img').addClass('img-responsive');
+    $('img').addClass('img-responsive');
 
 
     $(window).scroll(function(){
