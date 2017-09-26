@@ -26,7 +26,7 @@
 		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
             <div class="title-holder">	<h1 class="title"><?php the_title(); ?></h1>
-            <span><?php edit_post_link() ?></span>
+            <span><?php edit_post_link('<i class="fa fa-pencil-square-o" aria-hidden="true"></i>') ?></span>
             </div>
 
 				<div class="post">
