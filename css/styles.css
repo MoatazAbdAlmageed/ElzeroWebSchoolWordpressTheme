@@ -138,14 +138,14 @@ body {
     color:#fcd83f;
 }
 
-.posts-navigation{
+.posts-navigation,.single .navigation{
     margin: 0 auto;
     width: 200px;
     display: block;
     clear: both;
 }
 
-.posts-navigation a,.posts-navigation span{
+.single .next-post,.single .prev-post,.prev-posts ,.next-posts{
     padding: 6em;
     background: #fcd83f;
     float: left;
@@ -155,18 +155,13 @@ body {
     text-decoration: none !important;
 }
 
-.posts-navigation span{
-    background: #1c1e22;
-    color: #4c4c4d;
-    cursor: not-allowed ;
-    opacity: .8;
-}
-.posts-navigation a:hover{
-    background: #1c1e22;
-    color:  #fff;
-    -webkit-transition-duration: 0.4s;
-    -moz-transition-duration: 0.4s; transition-duration: 0.4s;
-}
+/*.posts-navigation span{*/
+    /*background: #1c1e22;*/
+    /*color: #4c4c4d;*/
+    /*cursor: not-allowed ;*/
+    /*opacity: .8;*/
+/*}*/
+
 .jumbotron h1 {
     color:  #201f1c;;
 }
@@ -315,4 +310,16 @@ border-bottom:  1px solid #eee;
     color: #fcd83f;
     float: right;
     display: none;
+}
+
+
+
+.hover{
+    background: #1c1e22 !important;
+
+    -webkit-transition-duration: 0.4s !important;
+    -moz-transition-duration: 0.4s; transition-duration: 0.4s!important;
+}
+.hover a {
+    color:  #fcd83f !important;
 }

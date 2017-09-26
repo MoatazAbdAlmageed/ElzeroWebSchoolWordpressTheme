@@ -20,6 +20,15 @@ jQuery(document).ready(function($){
     })
 
 
+    jQuery('.single .next-post ,.single .prev-post,.prev-posts ,.next-posts ').hover(function (){
+
+        jQuery(this).addClass('hover');
+    },function () {
+        jQuery(this).removeClass('hover');
+    })
+
+
+
 
     jQuery('img').addClass('img-responsive');
 
