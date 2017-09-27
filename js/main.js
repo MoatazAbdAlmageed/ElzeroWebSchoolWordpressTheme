@@ -27,11 +27,11 @@ jQuery(document).ready(function($){
     })
 
 
-    $('.single .next-post ,.single .prev-post,.prev-posts ,.next-posts ').hover(function (){
+    $('.single .next-post a ,.single .prev-post a,.prev-posts a,.next-posts a').hover(function (){
 
         $(this).addClass('hover');
     },function () {
-        $(this).removeClass('hover');
+        $(this ).removeClass('hover');
     })
 
 

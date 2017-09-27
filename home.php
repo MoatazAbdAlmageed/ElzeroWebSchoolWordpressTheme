@@ -84,27 +84,35 @@
         <div class="posts-navigation">
 
 
-            <div class="prev-posts"><?php
-				if ( get_previous_posts_link() ) {
-					previous_posts_link( '<i class="fa fa-chevron-left" aria-hidden="true"></i> Prev' );
 
-				} else {
-//					echo '<span><i class="fa fa-chevron-left" aria-hidden="true"></i> Prev</span>';
-				}
-				?></div>
 
-            <div class="next-posts">
+
+
+
 
 
 	            <?php
 
 	            if ( get_next_posts_link() ) {
-		            next_posts_link( '<i class="fa fa-chevron-right" aria-hidden="true"></i> Next' );
+	                ?>
+                    <div class="next-posts">
+		            <?php
+		            next_posts_link( '<i class="fa fa-chevron-left" aria-hidden="true"></i> Older' );
 
 	            } else {
 //		            echo '<span><i class="fa fa-chevron-right" aria-hidden="true"></i> Next</span>';
 	            }
                 ?>
+                    </div>
+	                    <?php if ( get_previous_posts_link() ) {?>
+                        <div class="prev-posts">
+		                    <?php
+		                    previous_posts_link( '<i class="fa fa-chevron-right" aria-hidden="true"></i> Newer' );
+
+		                    } else {
+//				echo '<span><i class="fa fa-chevron-left" aria-hidden="true"></i> Prev</span>';
+		                    }
+		                    ?>
 
 
 
