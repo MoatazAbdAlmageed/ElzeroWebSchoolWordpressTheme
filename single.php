@@ -90,11 +90,11 @@
 			<div class="navigation ">
 
 				<?php if (strlen(get_next_post()->post_title) > 0) { ?>
-                    <div class="next-post"><?php next_post_link('%link','<span><i class="fa fa-chevron-right" aria-hidden="true"></i> Next</span>'); ?></div>
+                    <div class="next-post"><?php next_post_link('%link','<span><i class="fa fa-chevron-right" aria-hidden="true"></i> Newer</span>'); ?></div>
 				<?php } ?>
 
 				<?php if (strlen(get_previous_post()->post_title) > 0) { ?>
-                <div class="prev-post"><?php previous_post_link('%link','<span><i class="fa fa-chevron-left" aria-hidden="true"></i> Prev</span>'); ?></div>
+                <div class="prev-post"><?php previous_post_link('%link','<span><i class="fa fa-chevron-left" aria-hidden="true"></i> Older</span>'); ?></div>
 				<?php } ?>
 
 
