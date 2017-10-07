@@ -21,7 +21,7 @@
 	<!-- You can start editing here. -->
 
 	<?php if ($comments) : ?>
-		<h2 id="comments"><?php comments_number('No Responses', 'Responses', 'Responses' );?></h2>
+		<h2 id="comments"><?php comments_number('No Comments', 'Comment', 'Comments' );?></h2>
 
 		<div class="small">
 			<span class="feedlink"><?php comments_rss_link('Feed'); ?></span>
@@ -33,15 +33,18 @@
 			<?php foreach ($comments as $comment) : ?>
 
 				<li <?php echo $oddcomment; ?>id="comment-<?php comment_ID() ?>">
-					<cite><?php comment_author_link() ?></cite> says:
-					<?php if ($comment->comment_approved == '0') : ?>
-						<em>Your comment is awaiting moderation.</em>
-					<?php endif; ?>
-					<br />
+
 
 					<p class="small"><?php comment_date('F jS, Y') ?> at <?php comment_time() ?> (<a href="#comment-<?php comment_ID() ?>" title="">#</a>) <?php edit_comment_link('edit','&nbsp;&nbsp;',''); ?></p>
 
+                    <cite><?php comment_author_link() ?></cite> says:
+					<?php if ($comment->comment_approved == '0') : ?>
+                        <em>Your comment is awaiting moderation.</em>
+					<?php endif; ?>
+                    <br />
 					<?php comment_text() ?>
+
+
 
 				</li>
 
@@ -100,7 +103,7 @@
 
 				<p><textarea class="form-control" name="comment" id="comment" cols="10" rows="5" tabindex="4"></textarea></p>
 				</div>
-				<p><input name="submit" type="submit" id="submit"  class="btn btn-large" tabindex="5" value="Submit Comment" />
+				<p><input name="submit" type="submit" id="submit"  class="btn btn-large" tabindex="5" value="Submit" />
 					<input type="hidden" name="comment_post_ID" value="<?php echo $id; ?>" />
 				</p>
 				<?php do_action('comment_form', $post->ID); ?>

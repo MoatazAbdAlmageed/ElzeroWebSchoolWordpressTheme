@@ -27,18 +27,22 @@ function enqueue_elzero_styles_and_scripts() {
 
 	// Enqueue .css files
 	$css_files = [
-		'bootstrap.min', //file name in css folder
-		'bootstrap-theme.min',
+
+	//	'bootstrap-theme.min',
 		'font-awesome.min',
-		'styles', // Elzero styles
+
+		'bootstrap.min',
+		'bootstrap-rtl.min',
+		'album',
+	'styles', // Elzero styles
 	];
 
 	// if admin_bar_showing load admin_bar_showing.css file
 
-	if (    is_admin_bar_showing()) {
-		array_push($css_files, "admin_bar_showing");
-
-	}
+//	if (    is_admin_bar_showing()) {
+//		array_push($css_files, "admin_bar_showing");
+//
+//	}
 	for ( $css_file = 0; $css_file <= count( $css_files ); $css_file ++ ) {
 		wp_enqueue_style( $css_files[ $css_file ], get_folder_from_template_directory( 'css' ) . $css_files[ $css_file ] . '.css', array(), null, 'screen' );
 	}
@@ -51,6 +55,9 @@ function enqueue_elzero_styles_and_scripts() {
 	// Enqueue .js files
 	$js_files = [
 		[ file_name => 'jquery.min', inFooter => true ],
+		[ file_name => 'tether.min', inFooter => true ],
+		[ file_name => 'holder.min', inFooter => true ],
+		[ file_name => 'popper.min', inFooter => true ],
 		[ file_name => 'bootstrap.min', inFooter => true ],
 		[ file_name => 'main', inFooter => true ],
 		[ file_name => 'html5shiv.min', inFooter => false, conditional => 'if lt IE 9' ], //if IE less than v9
@@ -135,3 +142,7 @@ function wpdocs_excerpt_length(  ) {
 	return 4;
 }
 //add_filter( 'excerpt_length', 'wpdocs_excerpt_length');
+
+
+
+

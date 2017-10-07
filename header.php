@@ -24,9 +24,11 @@
 </head>
 
 <body <?php body_class(); ?>  >
-<div class="container">
 
-    <nav class="navbar  navbar-fixed-top">
+
+<div class="container-fluid">
+
+    <nav class="navbar navbar-inverse bg-inverse">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"

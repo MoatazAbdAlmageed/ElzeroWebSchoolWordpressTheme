@@ -1,10 +1,4 @@
 
-body {
-    padding-top: 70px;
-    padding-bottom: 30px;
-    /*background: url("http://www.newsmartwave.net/wordpress/porto/resume/wp-content/uploads/sites/49/2017/02/about-me-bg-1.jpg");*/
-    background: #eeeeee
-}
 
 .theme-dropdown .dropdown-menu {
     position: static;
@@ -94,7 +88,8 @@ body {
 }
 
 #main-wrapper {
-    margin-bottom: 8em !important;
+    margin-bottom: 1em !important;
+    margin-top: 1em !important;
 }
 
 
@@ -220,7 +215,9 @@ body {
 
 
 .navbar {
-   background: #fcd83f;
+   /*background: #fcd83f;*/
+
+    border-radius: 0;
 
 }
 .navbar a {
@@ -228,7 +225,7 @@ body {
 }
 
 .navbar-nav .active {
-    background: #201f1c;
+    background: #fbcf20;
 }
 
 .navbar-nav .active a{
@@ -329,4 +326,15 @@ border-bottom:  1px solid #eee;
 }
 .hover {
     color:  #fcd83f !important;
+}
+.jumbotron-sidebar{
+    padding: 0 !important;
+}
+
+
+
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+color: #222;
+    background-color: #fcd83f;
 }
